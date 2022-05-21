@@ -6,7 +6,31 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-![alt text](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Images/Screenshot%202022-05-21%20011803.png)
+#!/bin/bash
+
+#mkdir ~/research 2> /dev/null
+
+if [ ! -d $HOME/research ]
+        then
+        mkdir $/home/research
+fi
+
+if [ ! -f $HOME/research/sys_info.txt ]
+        then
+        rm $HOME/research/sys_info.txt
+fi
+echo "A Quick System Audit Script" >  ~/research/sys_info.txt
+date >> ~/research/sys_info.txt
+echo "" >> ~/research/sys_info.txt
+echo "Machine Type Info:" >> ~/research/sys_info.txt
+echo $MACHTYPE >> ~/research/sys_info.txt
+echo -e "Uname info: $(uname -a) \n" >> ~/research/sys_info.txt
+echo -e "IP Info: $(ip addr | grep inet | tail -2 | head -1) \n" >> ~/research/sys_info.txt
+echo "Hostname: $(hostname -s) " >> ~/research/sys_info.txt
+echo -e "\n777 Files:" >>  ~/research/sys_info.txt
+find / -type f -perm 777 >> ~/research/sys_info.txt
+echo -e "\nTop 10 Processes" >> ~/research/sys_info.txt
+ps aux -m | awk {'print $1, $2, $3, $4, $11'} | head >> ~/research/sys_info.txt
 
 This document contains the following details:
 - Description of the Topologu
