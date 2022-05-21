@@ -6,10 +6,10 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _[Elk Install](Ansible/Intall-elk.yml)_
-  - _[Filebeat Install](Ansible/filebeat-playbook.yml)_
-  - _[Metricbeat Install](Ansible/metricbeat-playbook.yml)_
-  - _[DVWA Install](Ansible/dvwa_playbook.yml)_
+  - _[Elk Install](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/Intall-elk.yml.txt)_
+  - _[Filebeat Install](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/filebeat-playbook.yml.txt)_
+  - _[Metricbeat Install](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/metricbeat-playbook.yml.txt)_
+  - _[DVWA Install](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/dvwa_playbook.yml.txt)_
 
 This document contains the following details:
 - Description of the Topology
