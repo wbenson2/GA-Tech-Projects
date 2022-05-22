@@ -102,6 +102,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the install-elk.yml file to /etc/ansible
 - Update the /etc/ansible/hosts file to include the below sample command. Your IP address that you will specify is the private IP of your Elk VM:
+
 ![Ansible Host File Elk Configure](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Images/elk_configure.png) 
 - Run the playbook, and navigate to http://[your_elk_server_ip]:5601/app/kibanato check that the installation worked as expected.
 
