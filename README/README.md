@@ -84,13 +84,17 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- _10.0.0.5_
+- _10.0.0.6_
+- _10.0.0.7_
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- _Filebeat_
+- _Metricbeat_
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- _Filebeat ships system log files to Elk Stack so that further analysis can be conducted. One thing that file beats logs is SSH login attempts. The Kibana dashboard will show you the time the login occured, if it was succesful, who logged in and what the IP address was.
+- _Metricbeat collects system data such as CPU or memory usage and ships it to Elk Stack so further analysis can be conducted. An example of what metricbeat shows is the number of containers that are currently running or stopped.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
