@@ -93,8 +93,8 @@ We have installed the following Beats on these machines:
 - _Metricbeat_
 
 These Beats allow us to collect the following information from each machine:
-- _Filebeat ships system log files to Elk Stack so that further analysis can be conducted. One thing that file beats logs is SSH login attempts. The Kibana dashboard will show you the time the login occured, if it was succesful, who logged in and what the IP address was.
-- _Metricbeat collects system data such as CPU or memory usage and ships it to Elk Stack so further analysis can be conducted. An example of what metricbeat shows is the number of containers that are currently running or stopped.
+- _Filebeat ships system log files to Elk Stack so that further analysis can be conducted. One thing that file beats logs is SSH login attempts. The Kibana dashboard will show you the time the login occured, if it was succesful, who logged in and what the IP address was._
+- _Metricbeat collects system data such as CPU or memory usage and ships it to Elk Stack so further analysis can be conducted. An example of what metricbeat shows is the number of containers that are currently running or stopped._
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
