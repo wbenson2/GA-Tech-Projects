@@ -113,5 +113,5 @@ SSH into the control node and follow the steps below:
 
 -![Ansible Host File Elk Configure](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Images/elk_configure.png)
 
-- [Example Host File](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/hosts.txt)
+-[Example Host File](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/hosts.txt)
 - _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
