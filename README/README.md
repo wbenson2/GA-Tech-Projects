@@ -106,4 +106,7 @@ SSH into the control node and follow the steps below:
 -![Ansible Host File Elk Configure](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Images/elk_configure.png) 
 - Run the playbook, and navigate to http://[your_elk_server_ip]:5601/app/kibanato check that the installation worked as expected.
 
+### Installing Elk
+
+_ -Download the install-elk.yml playbook by running the command curl https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/Intall-elk.yml.txt > /etc/ansible
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
