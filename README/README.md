@@ -57,11 +57,12 @@ Machines within the network can only be accessed by the jumpbox.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name        | Publicly Accessible | Allowed IP Addresses    |
+|-------------|---------------------|-------------------------|
+| Jump Box    | Yes                 | 99.96.118.27            |
+| Web 1,2 & 3 | No                  | Red-Team-LB 20.92.95.25 |
+| Red-Team-LB | Yes                 | 20.92.95.25             |
+| Elk         | Yes                 | 20.70.100.255:5601      |
 
 ### Elk Configuration
 
