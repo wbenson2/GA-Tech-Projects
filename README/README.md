@@ -115,4 +115,6 @@ SSH into the control node and follow the steps below:
 
   -[Example Host File](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/hosts.txt)
 - Once the playbook has been downloaded run the playbook using command: ansible-playbook /etc/ansible/install-elk.yml
+- After the playbook runs ensure that there are no errors. If you confirm that there are no erros go to http://[your_elk_server_ip]:5601/app/kibana in your web browser. You should see the below snapshot if your install was succesful:
+  -[Kibana Snapshot]
 - _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
