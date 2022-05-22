@@ -112,5 +112,6 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include the below sample command. Your IP address that you will specify is the private IP of your Elk VM:
 
   -![Ansible Host File Elk Configure](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Images/elk_configure.png)
+
   -[Example Host File](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/hosts.txt)
 - _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
