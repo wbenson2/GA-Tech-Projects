@@ -108,7 +108,7 @@ SSH into the control node and follow the steps below:
 
 ### Installing Elk
 
-- _Download the install-elk.yml playbook by running the command curl https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/install-elk.yml.txt > /etc/ansible_
+- Download the install-elk.yml playbook by running the command curl https://github.com/wbenson2/GA-Tech-Projects/blob/main/Ansible/install-elk.yml.txt > /etc/ansible
 - _Update the /etc/ansible/hosts file to include the below sample command. Your IP address that you will specify is the private IP of your Elk VM:_
 
 --![Ansible Host File Elk Configure](https://github.com/wbenson2/GA-Tech-Projects/blob/main/Images/elk_configure.png)
