@@ -29,19 +29,20 @@ Load balancing ensures that the application will be highly resilient, in additio
 - _Load balancers shift an attackers traffic from local machines and directs it to the public balancer._ 
 - _A jump box serves as a gatway to gain entry into a remote netowrk. It allows ssh access to a trusted public key and prevents access to users without the key._
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log files and system resources.
+- _Filebeat watches for system log changes._
+- _Metricbeat reports on system resource usage._
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name     | Function    | IP Address | Operating System |
+|----------|-------------|------------|------------------|
+| Jump Box | Gateway     | 10.0.0.4   | Linux            |
+| Web-1    | Web Server  | 10.0.0.5   | Linux            |
+| Web-2    | Web Server  | 10.0.0.6   | Linux            |   
+| Web-3    | Web Server  | 10.0.0.7   | Linux            |
+| Elk      | Kibana      | 10.1.0.5   | Linux            |
 
 ### Access Policies
 
